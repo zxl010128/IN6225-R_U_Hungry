@@ -1,0 +1,60 @@
+.backgroundRegister {
+    background-image: url('../../assets/backgroundPage.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+
+@media (min-width: 1401px) or (min-height: 759px) {
+    .backgroundRegister {
+        background-size: contain;
+        background-size: 100% 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.shopImg {
+    width: 100px;
+    height: 100px;
+}
+
+.inputContainerR {
+    width: 600px;
+    height: 650px;
+    background-color: #3b4450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shopBoxR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shopBoxR > p {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    color: white;
+}
+
+.joinUs {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: underline;
+}
+
+.joinUs:hover {
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.userInfo > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.userInfo > p {
+    color: white;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.buttonList > Button {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.buttonList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.adminHeaderSession {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+}
+
+.adminHeaderSession > Button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.adminHeaderSession > p {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 18px;
+}

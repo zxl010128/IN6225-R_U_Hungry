@@ -1,0 +1,12 @@
+.orderTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 15px 15px;
+}
+
+.orderTitle > p {
+    font-size: 30px;
+    font-weight: 700;
+}
